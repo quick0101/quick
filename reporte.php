@@ -221,20 +221,6 @@
         </div>
 
 
-          <div class = "container" > 
-                <br/>
-                <h2 class = "text-center" > Ejemplo de Highcharts php mysql json </h2> 
-                <div class = "row" > 
-                    <div class = "col-md-10 col-md-offset-1" > 
-                        <div class = "panel panel-default" > 
-                            <div class = "panel-header" > Dashboard </div> 
-                            <div class = "panel-body" > 
-                                <div id = "container" > </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
     </div><!-- /page content -->

@@ -4,7 +4,7 @@
     include "config/config.php";
 
     if (isset($_SESSION['user_id']) && $_SESSION!==null) {
-       header("location: inicio.php");
+       header("location: inicio.php");       
     }
 
 ?>
@@ -17,7 +17,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Iniciar Sesión </title>
+        <title>Login </title>
 
      
         <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +34,10 @@
     </head>
     <body class="login">
         <div>
+
+       
+
+
             <a class="hiddenanchor" id="signup"></a>
             <a class="hiddenanchor" id="signin"></a>
             <div class="login_wrapper">
@@ -50,21 +54,24 @@
                         <form action="action/login.php" method="post">
                             <h1>Iniciar Sesión</h1>
                             <div>
-                                <input type="text" name="email" class="form-control" placeholder="Correo Electrónico" required />
+                                <input type="text" name="email" class="form-control" placeholder="Correo Electrónico / Usuario" required />
                             </div>
                             <div>
                                 <input type="password" name="password" class="form-control" placeholder="Contraseña" required/>
                             </div>
                             <div>
                                 <button type="submit" name="token" value="Login" class="btn btn-default">Iniciar Sesion</button>
-                                <a class="reset_pass" href="#">Olvidaste Tu contraseña?</a>
+
+                              
+                                
                             </div>
+                           
                             <div class="clearfix"></div>
                             <div class="separator">
                                 <div class="clearfix"></div>
                                 <br />
                                 <div>
-                                    <h1><i class="fa fa-ticket"></i> </h1>
+                                    <h1 ><i class="fa fa-cube"></i> </h1>
                                     </div>
                             </div>
                         </form>
@@ -72,5 +79,6 @@
                 </div>
             </div>
         </div>
+        
     </body>
 </html>

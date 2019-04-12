@@ -6,6 +6,11 @@
                     </li>
 
                     <li class="<?php if(isset($active2)){echo $active2;}?>">
+                        <a href="solped.php"><i class="fa fa-database"></i> SOLPED</a>
+                    </li>
+
+
+                    <li class="<?php if(isset($active2)){echo $active2;}?>">
                         <a href="registro.php"><i class="fa fa-database"></i> Registros de Items</a>
                     </li>
 
